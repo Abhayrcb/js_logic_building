@@ -1,3 +1,7 @@
+
+// Function to find the missing character in a given string
+// The function assumes the string is a sequence of characters in alphabetical order
+
 function findMissingChar(str){
     let missingchar="";
     for(let i=0;i<str.length-1;i++){
